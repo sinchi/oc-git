@@ -5,10 +5,10 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular.js"></script>
 	</head>
 	<body>
-		<div class="container" ng-init="git=Learn openclassroom git">
-			<h1>Hello { git }</h1>
+		<div class="container" ng-init="git='Learn openclassroom git'">
+			<h1>{{git}}</h1>
 		</div>
-		<script type="text/javascript" src="app.js">
+		<script type="text/javascript">
 			var app = angular.module('git', []);
 			//app.controller('GitCtrl', function($scope){ $scope.git = "Learn openclassroom git"; });
 		</script>
